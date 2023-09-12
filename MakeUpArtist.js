@@ -127,24 +127,24 @@ const dataLevel = [
         nameTag: "Mixed"
     },
 ];
-const createLevelCheckBox = (dataLevel) => {
-    const { nameTag } = dataLevel;
-    const templateCheckBox = `<div class="checkBoxLevel">
-    <input type="checkbox" class="checkBox" value="${nameTag}">
-        <p class="checkBoxName">${nameTag}</p>
-    </div>`;
-    parentLevel.insertAdjacentHTML("beforeend", templateCheckBox)
-}
-dataLevel.map((people, index) => createLevelCheckBox(people))
-const createFocusOnCheckBox = (dataFocusOn) => {
-    const { nameTag } = dataFocusOn;
-    const templateCheckBox = `<div class="checkBoxFocusOn">
-    <input type="checkbox" class="checkBox" value="${nameTag}">
-        <p class="checkBoxName">${nameTag}</p>
-    </div>`;
-    parentFocusOn.insertAdjacentHTML("beforeend", templateCheckBox)
-}
-dataFocusOn.map((people, index) => createFocusOnCheckBox(people))
+// const createLevelCheckBox = (dataLevel) => {
+//     const { nameTag } = dataLevel;
+//     const templateCheckBox = `<div class="checkBoxLevel">
+//     <input type="checkbox" class="checkBox" value="${nameTag}">
+//         <p class="checkBoxName">${nameTag}</p>
+//     </div>`;
+//     parentLevel.insertAdjacentHTML("beforeend", templateCheckBox)
+// }
+// dataLevel.map((people, index) => createLevelCheckBox(people))
+// const createFocusOnCheckBox = (dataFocusOn) => {
+//     const { nameTag } = dataFocusOn;
+//     const templateCheckBox = `<div class="checkBoxFocusOn">
+//     <input type="checkbox" class="checkBox" value="${nameTag}">
+//         <p class="checkBoxName">${nameTag}</p>
+//     </div>`;
+//     parentFocusOn.insertAdjacentHTML("beforeend", templateCheckBox)
+// }
+// dataFocusOn.map((people, index) => createFocusOnCheckBox(people))
 
 
 

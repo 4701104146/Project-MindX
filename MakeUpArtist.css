@@ -529,7 +529,7 @@ html {
         grid-template-columns: repeat(2, 1fr);
     } */
 
-    .filterTag h4 {
+    /* .filterTag h4 {
         font-family: Quicksand;
         font-size: 18px;
         font-weight: 700;
@@ -601,7 +601,7 @@ html {
 
     .checkBoxFocusOn p {
         margin-left: 10px;
-    }
+    }*/
     .MakeUpStyle {
         font-family: Quicksand;
         font-size: 18px;
@@ -641,7 +641,7 @@ html {
     .checkBoxMakeUp p {
         margin-left: -35%;
 
-    }
+    } 
 
     .formFooter {
         display: flex;
