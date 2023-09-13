@@ -524,12 +524,12 @@ html {
         transform: translateX(50%) translateY(-80%);
     }
 
-    /* .filterTag {
+    .filterTag {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-    } */
+    }
 
-    /* .filterTag h4 {
+    .filterTag h4 {
         font-family: Quicksand;
         font-size: 18px;
         font-weight: 700;
@@ -550,14 +550,12 @@ html {
     .boxCheckBox {
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        background-color: aqua;
     }
     
     .checkBoxLevel{
         display: flex;
         flex-direction: row;
         margin-bottom: 10px;
-        background-color: #d69194;
     }
 
     .checkBoxLevel .checkBox {
@@ -581,7 +579,6 @@ html {
     .checkBoxFocusOn{
         display: flex;
         margin-bottom: 10px;
-        background-color: #fc6c73;
     }
 
     .checkBoxFocusOn .checkBox {
@@ -601,7 +598,7 @@ html {
 
     .checkBoxFocusOn p {
         margin-left: 10px;
-    }*/
+    }
     .MakeUpStyle {
         font-family: Quicksand;
         font-size: 18px;
@@ -641,7 +638,7 @@ html {
     .checkBoxMakeUp p {
         margin-left: -35%;
 
-    } 
+    }
 
     .formFooter {
         display: flex;
@@ -1472,16 +1469,16 @@ html {
 
     .boxCheckBox {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3,1fr);
     }
-
-    .checkBoxFilter {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+    
+    .checkBoxLevel{
+        display: flex;
+        flex-direction: row;
         margin-bottom: 10px;
     }
 
-    .checkBoxFilter .checkBox {
+    .checkBoxLevel .checkBox {
         border: #B3B3B3 0.5px;
         height: 18px;
         width: 18px;
@@ -1491,13 +1488,36 @@ html {
         cursor: pointer;
     }
 
-    .checkBoxFilter .checkBox:hover {
+    .checkBoxLevel .checkBox:hover {
         opacity: 100%;
         box-shadow: 0px 0px 0px 0px #FB797FD9;
     }
 
-    .checkBoxFilter p {
-        margin-left: -35%;
+    .checkBoxLevel p {
+        margin-left: 10px;
+    }
+    .checkBoxFocusOn{
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .checkBoxFocusOn .checkBox {
+        border: #B3B3B3 0.5px;
+        height: 18px;
+        width: 18px;
+        box-shadow: 0px 0px 3px 0px #FB797FD9;
+        opacity: 50%;
+        margin-left: 50px;
+        cursor: pointer;
+    }
+
+    .checkBoxFocusOn .checkBox:hover {
+        opacity: 100%;
+        box-shadow: 0px 0px 0px 0px #FB797FD9;
+    }
+
+    .checkBoxFocusOn p {
+        margin-left: 10px;
     }
 
     .MakeUpStyle {
@@ -2361,16 +2381,16 @@ html {
 
     .boxCheckBox {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3,1fr);
     }
-
-    .checkBoxFilter {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+    
+    .checkBoxLevel{
+        display: flex;
+        flex-direction: row;
         margin-bottom: 10px;
     }
 
-    .checkBoxFilter .checkBox {
+    .checkBoxLevel .checkBox {
         border: #B3B3B3 0.5px;
         height: 18px;
         width: 18px;
@@ -2380,13 +2400,36 @@ html {
         cursor: pointer;
     }
 
-    .checkBoxFilter .checkBox:hover {
+    .checkBoxLevel .checkBox:hover {
         opacity: 100%;
         box-shadow: 0px 0px 0px 0px #FB797FD9;
     }
 
-    .checkBoxFilter p {
-        margin-left: -35%;
+    .checkBoxLevel p {
+        margin-left: 10px;
+    }
+    .checkBoxFocusOn{
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .checkBoxFocusOn .checkBox {
+        border: #B3B3B3 0.5px;
+        height: 18px;
+        width: 18px;
+        box-shadow: 0px 0px 3px 0px #FB797FD9;
+        opacity: 50%;
+        margin-left: 50px;
+        cursor: pointer;
+    }
+
+    .checkBoxFocusOn .checkBox:hover {
+        opacity: 100%;
+        box-shadow: 0px 0px 0px 0px #FB797FD9;
+    }
+
+    .checkBoxFocusOn p {
+        margin-left: 10px;
     }
 
     .MakeUpStyle {
@@ -3246,21 +3289,21 @@ html {
     }
 
     #tagFocusOn {
-        margin-left: -50px;
+        margin-left: -70px;
     }
 
     .boxCheckBox {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3,1fr);
     }
-
-    .checkBoxFilter {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+    
+    .checkBoxLevel{
+        display: flex;
+        flex-direction: row;
         margin-bottom: 10px;
     }
 
-    .checkBoxFilter .checkBox {
+    .checkBoxLevel .checkBox {
         border: #B3B3B3 0.5px;
         height: 18px;
         width: 18px;
@@ -3270,13 +3313,36 @@ html {
         cursor: pointer;
     }
 
-    .checkBoxFilter .checkBox:hover {
+    .checkBoxLevel .checkBox:hover {
         opacity: 100%;
         box-shadow: 0px 0px 0px 0px #FB797FD9;
     }
 
-    .checkBoxFilter p {
-        margin-left: -25px;
+    .checkBoxLevel p {
+        margin-left: 10px;
+    }
+    .checkBoxFocusOn{
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .checkBoxFocusOn .checkBox {
+        border: #B3B3B3 0.5px;
+        height: 18px;
+        width: 18px;
+        box-shadow: 0px 0px 3px 0px #FB797FD9;
+        opacity: 50%;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    .checkBoxFocusOn .checkBox:hover {
+        opacity: 100%;
+        box-shadow: 0px 0px 0px 0px #FB797FD9;
+    }
+
+    .checkBoxFocusOn p {
+        margin-left: 10px;
     }
 
     .MakeUpStyle {
