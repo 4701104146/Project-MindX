@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Quicksand-bold;
+    src: url(/Assest-20230912T123002Z-001/Assest/Font/Quicksand-Bold.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-light;
+    src: url(/Assest-20230912T123002Z-001/Assest/Font/Quicksand-Light.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    max-width: 1440px;
+}
+
+.row {
+    width: 1440px;
+}
+
+
+.row .col .imageSignIn .portrait {
+    position: relative;
+    flex-shrink: 0;
+    top: 0;
+}
+
+.row .col .imageSignIn .effigy {
+    position: absolute;
+    flex-shrink: 0;
+    top: 50px;
+    left: 40px;
+    fill: rgba(251, 121, 127, 0.50);
+}
+
+.row .col .form-control-signin {
+    border-color: white;
+    width: 600px;
+    padding-left: 100px;
+    padding-top: 50px;
+    display: inline-block;
+
+}
+
+.row .col .form-control-signin .forgot-pass {
+    margin-left: 12.2em;
+}
+
+.btn-login {
+    background-color: #FB797F;
+    border-color: white;
+    border-radius: 5px;
+    width: 500px;
+    height: 50px;
+    color: white;
+}
+
+.row .col .form-control-signin .hrtext {
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    text-align: center;
+    color: #B3B3B3;
+    line-height: 10px;
+}
+
+.hrtext::before,
+.hrtext::after {
+    content: '';
+    flex: 2;
+    border-bottom: 1px solid #B3B3B3;
+}
+
+.hrtext:not(:empty)::before {
+    margin-right: 30px;
+}
+
+.hrtext:not(:empty)::after {
+    margin-left: 30px;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.icon {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon>div {
+    display: inline-block;
+    border-radius: 60px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background-color: rgba(255, 198, 199, 0.50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-option {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.link-login {
+    color: #FB797F;
+}
+
+.forgot-pass {
+    text-decoration: none;
+    color: #B3B3B3;
+}
+
+.form-control-signin h3 {
+    font-family: Quicksand-bold;
+}
+
+.form-control-signin .formSignIn {
+    font-family: Quicksand-bold;
+}
+
+.form-control-signin .form-check {
+    font-family: Quicksand-bold;
+}
