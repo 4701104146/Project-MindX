@@ -75,6 +75,7 @@ html {
         z-index: 100;
         width: 100%;
         border-radius: 0px 0px 20px 20px;
+        transition: 1s;
     }
 
     .logo {
@@ -343,7 +344,7 @@ html {
         left: 25%;
         top: 8%;
         bottom: 8%;
-        max-width: 700px;
+        min-width: 750px;
         width: 50%;
         height: fit-content;
         z-index: 200;
@@ -356,13 +357,13 @@ html {
         border: #FB797F 1px solid;
         border-radius: 10px 10px 10px 10px;
         width: 100%;
-        height: 530px;
+        height: fit-content;
     }
 
     .filterBox hr {
         border: #FB797F 0.5px solid;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .formHeader {
@@ -393,7 +394,7 @@ html {
     .timeViewRange {
         padding-left: 50px;
         padding-right: 50px;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         display:flex;
         justify-content: space-around;
     }
@@ -404,8 +405,7 @@ html {
         font-weight: 700;
         line-height: 23px;
         letter-spacing: 0em;
-        text-align: left;
-
+        text-align: center;
     }
 
     .timeRange {
@@ -462,7 +462,7 @@ html {
         box-shadow: 0 .125rem .5626rem -0.125rem rgba(0, 0, 0, 1);
     }
 
-    .tooltip {
+    .tool {
         padding: .25rem .5rem;
         border: none;
         background-color: none;
@@ -485,7 +485,7 @@ html {
     .minTimeValue {
         left: 50%;
         transform: translateX(-50%) translateY(-80%);
-        z-index: 5;
+        z-index: 1000;
     }
 
     .maxTimeValue {
@@ -527,6 +527,7 @@ html {
     }
 
     .filterTag {
+        margin-top: 20px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
@@ -539,6 +540,7 @@ html {
         letter-spacing: 0em;
         text-align: left;
         margin-bottom: 20px;
+        margin-top: 10px;
     }
 
     #tagLevel {
@@ -552,11 +554,13 @@ html {
     .boxCheckBox {
         display: grid;
         grid-template-columns: repeat(3,1fr);
+        
     }
     
     .checkBoxLevel{
         display: flex;
         flex-direction: row;
+        height: 30px;
     }
 
     .checkBoxLevel .checkBox {
@@ -565,7 +569,7 @@ html {
         width: 18px;
         box-shadow: 0px 0px 3px 0px #FB797FD9;
         opacity: 50%;
-        margin-left: 50px;
+        margin:5px 0px 0px 50px;
         cursor: pointer;
     }
 
@@ -573,12 +577,13 @@ html {
         opacity: 100%;
         box-shadow: 0px 0px 0px 0px #FB797FD9;
     }
-
     .checkBoxLevel p {
         margin-left: 10px;
     }
     .checkBoxFocusOn{
         display: flex;
+        flex-direction: row;
+        height: 30px;
     }
 
     .checkBoxFocusOn .checkBox {
@@ -587,7 +592,7 @@ html {
         width: 18px;
         box-shadow: 0px 0px 3px 0px #FB797FD9;
         opacity: 50%;
-        margin-left: 50px;
+        margin:5px 0px 0px 50px;
         cursor: pointer;
     }
 
@@ -599,7 +604,7 @@ html {
     .checkBoxFocusOn p {
         margin-left: 10px;
     }
-    .MakeUpStyle {
+    .MakeUpStyle h4{
         font-family: Quicksand;
         font-size: 18px;
         font-weight: 700;
@@ -617,7 +622,7 @@ html {
     .checkBoxMakeUp {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin-bottom: 10px;
+        margin: 10px 0px;
     }
 
     .checkBoxMakeUp .checkBox {
@@ -626,7 +631,7 @@ html {
         width: 18px;
         box-shadow: 0px 0px 3px 0px #FB797FD9;
         opacity: 50%;
-        margin-left: 50px;
+        margin:5px 0px 0px 50px;
         cursor: pointer;
     }
 
@@ -692,12 +697,15 @@ html {
     .modelList {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        justify-content: space-around;
+        width: 100%;
     }
 
     .model-img {
         display: flex;
         justify-content: center;
         align-items: center;
+        
     }
 
     .profile {
@@ -987,6 +995,7 @@ html {
         z-index: 100;
         width: 100%;
         border-radius: 0px 0px 20px 20px;
+        transition: 1s;
     }
 
     .logo {
@@ -1269,14 +1278,15 @@ html {
         background-color: white;
         border: #FB797F 1px solid;
         border-radius: 10px 10px 10px 10px;
+        min-width: 750px;
         width: 100%;
-        height: 530px;
+        height: fit-content;
     }
 
     .filterBox hr {
         border: #FB797F 0.5px solid;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .formHeader {
@@ -1318,7 +1328,7 @@ html {
         font-weight: 700;
         line-height: 23px;
         letter-spacing: 0em;
-        text-align: left;
+        text-align: center;
 
     }
 
@@ -1376,7 +1386,7 @@ html {
         box-shadow: 0 .125rem .5626rem -0.125rem rgba(0, 0, 0, 1);
     }
 
-    .tooltip {
+    .tool {
         padding: .25rem .5rem;
         border: none;
         background-color: none;
@@ -1471,7 +1481,7 @@ html {
     .checkBoxLevel{
         display: flex;
         flex-direction: row;
-        margin-bottom: 10px;
+        height: 30px;
     }
 
     .checkBoxLevel .checkBox {
@@ -1480,7 +1490,7 @@ html {
         width: 18px;
         box-shadow: 0px 0px 3px 0px #FB797FD9;
         opacity: 50%;
-        margin-left: 50px;
+        margin:5px 0px 0px 50px;
         cursor: pointer;
     }
 
@@ -1494,7 +1504,8 @@ html {
     }
     .checkBoxFocusOn{
         display: flex;
-        margin-bottom: 10px;
+        flex-direction: row;
+        height: 30px;
     }
 
     .checkBoxFocusOn .checkBox {
@@ -1503,7 +1514,7 @@ html {
         width: 18px;
         box-shadow: 0px 0px 3px 0px #FB797FD9;
         opacity: 50%;
-        margin-left: 50px;
+        margin:5px 0px 0px 50px;
         cursor: pointer;
     }
 
@@ -1516,7 +1527,7 @@ html {
         margin-left: 10px;
     }
 
-    .MakeUpStyle {
+    .MakeUpStyle h4{
         font-family: Quicksand;
         font-size: 18px;
         font-weight: 700;
@@ -1543,7 +1554,7 @@ html {
         width: 18px;
         box-shadow: 0px 0px 3px 0px #FB797FD9;
         opacity: 50%;
-        margin-left: 50px;
+        margin:5px 0px 0px 50px;
         cursor: pointer;
     }
 
@@ -1905,6 +1916,7 @@ html {
         z-index: 100;
         width: 100%;
         border-radius: 0px 0px 20px 20px;
+        transition: 1s;
     }
 
     .logo {
@@ -2185,14 +2197,15 @@ html {
         background-color: white;
         border: #FB797F 1px solid;
         border-radius: 10px 10px 10px 10px;
+        min-width: 700px;
         width: 100%;
-        height: 530px;
+        height: fit-content;
     }
 
     .filterBox hr {
         border: #FB797F 0.5px solid;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .formHeader {
@@ -2239,7 +2252,7 @@ html {
     }
 
     .timeRange {
-        width: 300px;;
+        width: 280px;
         height: 4px;
         position: relative;
         background-color: #B3B3B3;
@@ -2292,7 +2305,7 @@ html {
         box-shadow: 0 .125rem .5626rem -0.125rem rgba(0, 0, 0, 1);
     }
 
-    .tooltip {
+    .tool {
         padding: .25rem .5rem;
         border: none;
         background-color: none;
@@ -2326,7 +2339,7 @@ html {
         margin-left: 50px;
     }
     .viewRange {
-        width: 300px;
+        width: 280px;
         height: 4px;
         position: relative;
         background-color: #B3B3B3;
@@ -2387,7 +2400,7 @@ html {
     .checkBoxLevel{
         display: flex;
         flex-direction: row;
-        margin-bottom: 10px;
+        height: 30px;
     }
 
     .checkBoxLevel .checkBox {
@@ -2396,7 +2409,7 @@ html {
         width: 18px;
         box-shadow: 0px 0px 3px 0px #FB797FD9;
         opacity: 50%;
-        margin-left: 50px;
+        margin:5px 0px 0px 50px;
         cursor: pointer;
     }
 
@@ -2410,7 +2423,8 @@ html {
     }
     .checkBoxFocusOn{
         display: flex;
-        margin-bottom: 10px;
+        flex-direction: row;
+        height: 30px;
     }
 
     .checkBoxFocusOn .checkBox {
@@ -2419,7 +2433,7 @@ html {
         width: 18px;
         box-shadow: 0px 0px 3px 0px #FB797FD9;
         opacity: 50%;
-        margin-left: 50px;
+        margin:5px 0px 0px 50px;
         cursor: pointer;
     }
 
@@ -2432,7 +2446,7 @@ html {
         margin-left: 10px;
     }
 
-    .MakeUpStyle {
+    .MakeUpStyle h4{
         font-family: Quicksand;
         font-size: 18px;
         font-weight: 700;
@@ -2459,7 +2473,7 @@ html {
         width: 18px;
         box-shadow: 0px 0px 3px 0px #FB797FD9;
         opacity: 50%;
-        margin-left: 50px;
+        margin:5px 0px 0px 50px;
         cursor: pointer;
     }
 
@@ -2820,6 +2834,7 @@ html {
         z-index: 100;
         width: 100%;
         border-radius: 0px 0px 20px 20px;
+        transition: 0.3s;
     }
 
     .logo {
@@ -3128,8 +3143,8 @@ html {
 
     .filterBox hr {
         border: #FB797F 0.5px solid;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .formHeader {
@@ -3232,7 +3247,7 @@ html {
         box-shadow: 0 .125rem .5626rem -0.125rem rgba(0, 0, 0, 1);
     }
 
-    .tooltip {
+    .tool {
         padding: .25rem .5rem;
         border: none;
         background-color: none;
@@ -3324,6 +3339,7 @@ html {
     .checkBoxLevel{
         display: flex;
         flex-direction: row;
+        height: 30px;
         margin-bottom: 10px;
     }
 
@@ -3333,7 +3349,7 @@ html {
         width: 18px;
         box-shadow: 0px 0px 3px 0px #FB797FD9;
         opacity: 50%;
-        margin-left: 10px;
+        margin:5px 0px 0px 10px;
         cursor: pointer;
     }
 
@@ -3347,6 +3363,8 @@ html {
     }
     .checkBoxFocusOn{
         display: flex;
+        flex-direction: row;
+        height: 30px;
         margin-bottom: 10px;
     }
 
@@ -3356,7 +3374,7 @@ html {
         width: 18px;
         box-shadow: 0px 0px 3px 0px #FB797FD9;
         opacity: 50%;
-        margin-left: 10px;
+        margin:5px 0px 0px 10px;
         cursor: pointer;
     }
 
@@ -3369,7 +3387,7 @@ html {
         margin-left: 10px;
     }
 
-    .MakeUpStyle {
+    .MakeUpStyle h4{
         font-family: Quicksand;
         font-size: 18px;
         font-weight: 700;
@@ -3396,7 +3414,7 @@ html {
         width: 18px;
         box-shadow: 0px 0px 3px 0px #FB797FD9;
         opacity: 50%;
-        margin-left: 10px;
+        margin:5px 0px 0px 10px;
         cursor: pointer;
     }
 

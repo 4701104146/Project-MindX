@@ -134,13 +134,15 @@ const createLevelCheckBox = (dataLevel) => {
     const templateCheckBox = `<div class="checkBoxLevel">
     <input type="checkbox" class="checkBox" value="${nameTag}">
         <p class="checkBoxName">${nameTag}</p>
-    </div>`;
+    </div>
+    `;
     parentLevel.insertAdjacentHTML("beforeend", templateCheckBox)
 }
 dataLevel.map((people, index) => createLevelCheckBox(people))
 const createFocusOnCheckBox = (dataFocusOn) => {
     const { nameTag } = dataFocusOn;
-    const templateCheckBox = `<div class="checkBoxFocusOn">
+    const templateCheckBox = `
+    <div class="checkBoxFocusOn">
     <input type="checkbox" class="checkBox" value="${nameTag}">
         <p class="checkBoxName">${nameTag}</p>
     </div>`;
@@ -718,8 +720,11 @@ function changePage(i) {
 window.addEventListener("scroll", () => {
     var pos = scrollY;
     if (pos > 0) {
-        document.getElementsByTagName("header")[0].className = "active";
-
+        if(document.getElementsByTagName("header")[0].className != "active")
+        return
+        else{
+            document.getElementsByTagName("header")[0].className = "active";
+        }
     }
 });
 const changeNav = () => {
@@ -727,7 +732,8 @@ const changeNav = () => {
     var scroll_y = this.scrollY;
     if (scroll_y > 0) {
         header.classList.add("headerActive");
-    } else {
+    } 
+    else{
         header.classList.remove("headerActive");
     }
 };
