@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup3.css" media="screen" />
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-4">
+            <h3>SIGN UP</h3>
+            <img src="/image/you-did-it!.png">
+            <div class="form-control-sm d-block justify-content-center">
+                <div class="mb-3">
+                    <div class="progress-container">
+                        <div class="progress" id="progress"></div>
+                        <div class="circle active"> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="9"
+                                viewBox="0 0 12 9" fill="none">
+                                <path
+                                    d="M3.9998 6.5998L9.8998 0.699804C10.0831 0.516471 10.3165 0.424805 10.5998 0.424805C10.8831 0.424805 11.1165 0.516471 11.2998 0.699804C11.4831 0.883138 11.5748 1.11647 11.5748 1.3998C11.5748 1.68314 11.4831 1.91647 11.2998 2.0998L4.6998 8.6998C4.4998 8.8998 4.26647 8.9998 3.9998 8.9998C3.73314 8.9998 3.4998 8.8998 3.2998 8.6998L0.699804 6.0998C0.516471 5.91647 0.424805 5.68314 0.424805 5.3998C0.424805 5.11647 0.516471 4.88314 0.699804 4.6998C0.883138 4.51647 1.11647 4.4248 1.3998 4.4248C1.68314 4.4248 1.91647 4.51647 2.0998 4.6998L3.9998 6.5998Z"
+                                    fill="black" />
+                            </svg></div>
+                        <div class="circle"> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="9"
+                                viewBox="0 0 12 9" fill="none">
+                                <path
+                                    d="M3.9998 6.5998L9.8998 0.699804C10.0831 0.516471 10.3165 0.424805 10.5998 0.424805C10.8831 0.424805 11.1165 0.516471 11.2998 0.699804C11.4831 0.883138 11.5748 1.11647 11.5748 1.3998C11.5748 1.68314 11.4831 1.91647 11.2998 2.0998L4.6998 8.6998C4.4998 8.8998 4.26647 8.9998 3.9998 8.9998C3.73314 8.9998 3.4998 8.8998 3.2998 8.6998L0.699804 6.0998C0.516471 5.91647 0.424805 5.68314 0.424805 5.3998C0.424805 5.11647 0.516471 4.88314 0.699804 4.6998C0.883138 4.51647 1.11647 4.4248 1.3998 4.4248C1.68314 4.4248 1.91647 4.51647 2.0998 4.6998L3.9998 6.5998Z"
+                                    fill="black" />
+                            </svg> </div>
+                        <div class="circle">3
+                        </div>
+                    </div>
+                    <div class="signup-step">
+                        <b>
+                            <p>Make-up experience</p>
+                        </b>
+                        <p style="color: gray;">This information allows us to approve your account faster</p>
+                    </div>
+                    <div class="hrtext">
+                        Step 3
+                    </div>
+                    <div>
+                        <b>
+                            <p>Your experience *</p>
+                        </b>
+                        <div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    &lt 1 year
+                                </label>
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    &gt =1 and &lt 3 years
+                                </label>
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    &gt 3 years
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <b>
+                                <p> Make-up image *</p>
+                            </b>
+                            <p style="color: gray;">At least one photo of your make-up work</p>
+                        </div>
+                        <div class="input-file">
+                            <input type="file" style="display: none;">
+                            <img class="input-symbols1" src="/image/material-symbols_add-circle-rounded.png">
+                        </div>
+                        <div>
+                            <b>
+                                <p>Make-up video*</p>
+                            </b>
+                            <p style="color: gray;">Upload 1 video about your make-up work</p>
+                        </div>
+                        <div class="input-video">
+                            <input type="file" style="display: none;">
+                            <img class="input-symbols2" src="/image/ph_upload-simple-fill.png">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p style="color: gray;">or insert the link of one video about your make-up work</p>
+                </div>
+                <div class="input-group input-group-lg">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">https://</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-lg">
+                </div>
+                <div class="input-footer">
+                    <input type="checkbox" id="policy" name="policy">
+                    <label for="policy">I agree with <a href="">Aura's policy</a> </label>
+                </div>
+                <div>
+                    <input class="signup-btn" type="submit" value="Sign up">
+                </div>
+                <div class="signup-footer">
+                    <p>Back to step 2 of signup process? <a href="">Step 2</a> </p>
+                    <p>Back to <a href="">Aura's home Page</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="test">
+                <img class="portrait" src="/image/pexels-photo-by-cottonbro-studio (3).png">
+                <div class="effigy">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="667" height="1033" viewBox="0 0 667 1033"
+                        fill="none">
+                        <path d="M0 0H667V1033H0V0Z" fill="#FB797F" fill-opacity="0.5" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</html>

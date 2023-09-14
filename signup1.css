@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  max-width: 1440px;
+}
+
+
+:root {
+  --background-fill: #FFC6C7;
+  --line-border-empty: #B3B3B3;
+}
+
+
+.progress-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 30px;
+  max-width: 100%;
+  width: 350px;
+}
+
+.progress-container::before {
+  content: "";
+  /* Mandatory with ::before */
+  background-color: var(--line-border-empty);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  height: 1px;
+  background:
+    repeating-linear-gradient(60deg, rgb(181, 176, 176) 0 10px, #0000 0 12px);
+  width: 100%;
+  z-index: -1;
+}
+
+.progress {
+  background-color: var(--line-border-fill);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  height: 4px;
+  width: 0%;
+  z-index: -1;
+  transition: 0.4s ease;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  background-color: #f6f7fb;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.circle {
+  background-color: #fff;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s ease;
+}
+
+.circle .active {
+  background-color: var(--background-fill);
+
+}
+
+.formSignIn {
+  display: block;
+  justify-content: center;
+  width: 400px;
+}
+
+.form-check .form-check-input {
+  width: 25px;
+  height: 25px;
+
+}
+
+.form-check .form-check-label {
+  margin-left: 10px;
+}
+
+.form-check .forgot-pass {
+  margin-left: 120px;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+}
+
+
+.btn-login {
+  background-color: #e15456;
+  border: #0000;
+  color: white;
+  width: 400px;
+  height: 40px;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn {
+  background-color: #e15456;
+  color: #fff;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 8px 30px;
+  margin: 5px;
+  font-size: 14px;
+  width: 400px;
+}
+
+.row .col-6 {
+  position: relative;
+
+}
+
+.row .col-6 .test .portrait {
+  position: relative;
+  flex-shrink: 0;
+  top: 0;
+  left: 100px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  mix-blend-mode: luminosity;
+}
+
+.row .col-6 .test .effigy {
+  position: absolute;
+  width: 667px;
+  height: 936px;
+  flex-shrink: 0;
+  top: 50px;
+  left: 70px;
+  fill: rgba(251, 121, 127, 0.50);
+}
+
+.row .col-4 .hrtext {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #B3B3B3;
+  line-height: 10px;
+}
+
+
+.hrtext::before,
+.hrtext::after {
+  content: '';
+  flex: 2;
+  border-bottom: 1px solid #B3B3B3;
+}
+
+.hrtext:not(:empty)::before {
+  margin-right: 5px;
+}
+
+.hrtext:not(:empty)::after {
+  margin-left: 5px;
+}
+
+.hrtext {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.row .col-4 .signup-btn {
+  width: 410px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 2px solid var(--pink1, #FB797F);
+  background: var(--pink1, #FB797F);
+  color: white;
+  margin-top: 20px;
+}
+
+.row .col-4 a {
+  color: #FB797F;
+}
+
+.row .col-4 .signup-footer {
+  text-align: center;
+  margin-top: 20px;
+}

@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Quicksand-Bold;
+    src: url(../Assest/Font/Quicksand-Bold.ttf);
+}
+@font-face {
+    font-family: Quicksand-Light;
+    src: url(../Assest/Font/Quicksand-Light.ttf);
+}
+@font-face {
+    font-family: Sacramento;
+    src: url(../Assest/Font/Sacramento-Regular.ttf);
+}
+main,
+.header-container {
+    width: 1280px;
+    /* background-color: pink; */
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+body a{
+    color: black;
+}
+
+section {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding: 150px 0;
+}
+
+.header-container {
+    height: 300px;
+    display: flex;
+    gap: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content h1{
+    font-family: Sacramento;
+    font-size: 70px;
+    font-weight: 400;
+    color: #fb797f;
+}
+.header-content p{
+    font-family: Quicksand-Light;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+#background {
+    height: 362px;
+    background-color: rgba(255, 198, 199, 0.3);
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+}
+
+.header-img {
+    position: relative;
+    width: 425px;
+    height: 425px;
+    flex-shrink: 0;
+}
+
+.inner,
+.layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.layer {
+    right: 40px;
+    top: 40px;
+}
+
+.inner {
+    right: 0px;
+}
+.inner>img, .layer>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.header-container input[type="text"]{
+    width: 488px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 0 0.2rem #FB797F;
+    padding: 20px;
+    margin: 20px 20px 20px 0;
+    color: rgba(179, 179, 179, 1);
+}
+.header-container .header-content input[type="submit"]{
+    width: 184px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #FB797F;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    float: right;
+    margin: 20px 0 0 0;
+}
+
+.mic-container{
+    display: inline-block;
+}
+
+#mic-icon{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: 30px;
+    left: 450px;
+}
+.mic-container{
+    position: relative;
+}
+
+.header-content{
+    position: relative;
+}
+
+.tutorial-video {
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 40px 18px;
+    /* justify-content: space-between; */
+}
+
+.video_item {
+    width: 100%;
+    grid-column: span 4;
+}
+
+/* .img-video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+} */
+
+.video_container{
+    width: 100%;
+    position: relative;
+}
+
+.inner-img>img {
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.icon_container,
+.video_duration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+}
+
+.icon_container {
+    top: 10px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.video_duration {
+    font-family: Quicksand-Light;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50px;
+    width: 47px;
+    height: 25px;
+    color: white;
+}
+.icon_container>iconify-icon{
+    color: white;
+}
+.icon_container:hover{
+    cursor: pointer;
+    background-color: #ffc6c7;
+}
+.icon_container:hover>iconify-icon{
+    color: black;
+}
+
+.video_item h3{
+    font-family: Quicksand-Bold;
+}
+.video_item p{
+    font-family: Quicksand-Light;
+    color: rgba(251, 121, 127, 1);
+    padding: 5px 0 5px 0;
+}
+
+.view{
+    font-family: Quicksand-Light;
+    color: gray;
+    display: inline;
+    width: 300px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.view #view-icon{
+    padding: 0 5px 0 0;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.tutorial-list{
+    display: flex;
+    padding: 0 0 36px 0;
+}
+
+.tutorial-list .word{
+    font-family: Quicksand-Bold;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.tutorial-list .number{
+    font-family: Quicksand-Light;
+    margin: 8px 0 0 10px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+

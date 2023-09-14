@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    max-width: 1440px;
+
+}
+
+:root {
+    --background-fill: #FFC6C7;
+    --line-border-empty: #B3B3B3;
+}
+
+
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 30px;
+    max-width: 100%;
+    width: 350px;
+}
+
+.progress-container::before {
+    content: "";
+    /* Mandatory with ::before */
+    background-color: var(--line-border-empty);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 1px;
+    background:
+        repeating-linear-gradient(60deg, rgb(181, 176, 176) 0 10px, #0000 0 12px);
+    width: 100%;
+    z-index: -1;
+}
+
+.progress-container::after {
+    content: "";
+    /* Mandatory with ::before */
+    background-color: var(--line-border-empty);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 1px;
+    background:
+        repeating-linear-gradient(0deg, rgb(0, 0, 0) 0 10px, #0000 0 12px);
+    width: 50%;
+    z-index: -1;
+}
+
+.progress {
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 0%;
+    z-index: -1;
+    transition: 0.4s ease;
+}
+
+
+.circle {
+    background-color:rgba(255, 198, 199, 1);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease;
+}
+
+.circle .active {
+    background-color: var(--background-fill);
+
+}
+
+.row .col-4 .hrtext {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #B3B3B3;
+    line-height: 10px;
+}
+
+
+.hrtext::before,
+.hrtext::after {
+    content: '';
+    flex: 2;
+    border-bottom: 1px solid #B3B3B3;
+}
+
+.hrtext:not(:empty)::before {
+    margin-right: 5px;
+}
+
+.hrtext:not(:empty)::after {
+    margin-left: 5px;
+}
+
+.hrtext {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.row .col-6 {
+    position: relative;
+
+}
+
+.row .col-6 .test .portrait {
+    position: relative;
+    flex-shrink: 0;
+    top: 0;
+    left: 100px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    mix-blend-mode: luminosity;
+}
+
+.row .col-6 .test .effigy {
+    position: absolute;
+    width: 667px;
+    height: 936px;
+    flex-shrink: 0;
+    top: 50px;
+    left: 70px;
+    fill: rgba(251, 121, 127, 0.50);
+}
+
+.row .col-4 a {
+    color: #FB797F;
+}
+
+.row .col-4 .signup-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.row .col-4 .signup-btn {
+    width: 400px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid var(--pink1, #FB797F);
+    background: var(--pink1, #FB797F);
+    color: white;
+}
+
+.row .col-4 .signup-step {
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    width: max-content;
+    
+}
+.form-select{
+    width: 206.42px;
+}
