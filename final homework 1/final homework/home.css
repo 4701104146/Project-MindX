@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Quicksand;
+    
+}
+
+html{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    max-width: 1440px;
+}
+@font-face {
+    font-family: Quicksand;
+    src: url(Assest-20230827T040303Z-001/Assest/Font/Quicksand2/static/Quicksand-Regular.ttf);
+}
+@font-face {
+    font-family: Sacramento;
+    src: url(Assest-20230827T040303Z-001/Assest/Font/Sacramento/Sacramento-Regular.ttf);
+}
+/* welcome */
+
+.welcome-home{
+    font-family: Quicksand;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    width: 554px;
+    height: 31px;
+    margin: 232px 34px 29px 0px ;
+}
+#welcome-container>h2{
+    margin: 23px 106.73px 6.84px 0px;
+    
+}
+h2{
+    font-family: Sacramento;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 85px;
+    color: var(--pink1, #FB797F);
+    width: 482.681px;
+    height: 178.812px;
+}
+#welcome-container{
+    padding: 232px 103px 260px 116px;
+}
+#welcome-container>p{
+    font-family: Quicksand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 510px;
+    height: 60px;
+    margin: 0 79px 25px 0px;
+}
+#welcome-view{
+    width: 199px;
+    height: 46px;
+    border-radius: 5px;
+    border: 2px solid var(--pink1, #FB797F);
+    background-color: var(--pink1, #FB797F);
+    padding: 10px 49.56px 13px 35px;
+  
+}
+#welcome-view>p{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+   
+}
+
+#play-button{
+    position: relative;
+    top: -22px;
+    left: 100px;
+}
+#welcome-section{
+    margin-top: 124px;
+}
+/* #main-banner{
+    position: absolute;
+} */
+#main-banner>svg {
+    position: relative;
+    top: -580px;
+    left: -90px;
+}
+/* #main-banner>img {
+    position: relative;
+    top: 100px;
+    right: 45px;
+} */
+#welcome-section{
+    display: flex;
+    background-color: rgba(255, 198, 199, 0.30);
+    width: 1440px;
+    /* height: 876px; */
+}
+
+/* trending */
+
+#tutorial-title > span {
+    color: var(--pink1, #FB797F);
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 70px 120px 0px 0px;
+    
+   
+}   
+#tutorial-title>h2{
+    width: 473.915px;
+    height: 77.245px;
+    margin: 66px 600px 19.48px 117px;
+       
+}
+#tutorial-title{
+    display: flex;
+    justify-content: space-between;
+
+}
+.tutorials-container > p{
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    width: 1204px;
+    height: 80px;
+    margin: 0 119px 54px 117px;
+}
+
+#video-container > p{
+    font-family: Quicksand;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+}
+#tutorials-container > p{
+    width: 1204px;
+    height: 80px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 19.48px 119px 54px 117px;
+}
+
+
+#trending-video{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+/* .video-container > p:first-child{
+    font-size: 25px;
+    font-weight: 700;
+    width: 611.514px;
+    height: 33.175px;
+} */
+
+/* make up */
+#makeup-container > h2{
+    font-size: 50px;
+    font-weight: 400;  
+    width: 350px;
+    height: 77.245px;
+  
+}
+#makeup-container{
+    display: inline-flex;
+    justify-content: space-around;
+    margin: 125.66px 625px 25.52px 119px;
+    width: 696px;
+    height: 25px;
+}
+#logo-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 52.52px;
+    padding: 67px 0;
+    margin-left: 118px;
+    margin-right: 116px;
+}
+/* passion */
+#passion-banner>svg{
+    position: relative;
+    top: -460px;
+    right: -55px;
+}
+#passion-banner{
+    width: 1478px;
+    height: 503px;
+    margin-left: 95px;
+}
+.passion-container{
+    display: flex;
+    background-color: rgba(255, 198, 199, 0.30);
+}
+.passion-para > p{
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    }
+.passion-para>span{
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 400;
+    /* width: 583px; */
+    /* height: 80.586px; */
+    
+}
+
+.passion-para>h2{
+    width: 685px;
+    height: 102px;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 28px 0px 22px 0px;
+
+}
+
+#create-button{
+    width: 271px;
+    height: 46px;
+    border-radius: 5px;
+    border: 2px solid var(--pink1, #FB797F);
+    background-color: var(--pink1, #FB797F);
+    padding: 12px 28px 12px 20px;
+    margin-top: 31.15px;
+    
+}
+
+/* artist */
+.artist-infor >h2{
+    font-size: 70px;
+    font-weight: 400;
+    width: 473.915px;
+    height: 77.245px;
+    
+}
+.artist-infor >span{
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--pink1, #FB797F);
+}
+.artist-infor{
+    display: flex;
+    justify-content: space-between;
+
+}
+#artist-tittle > p{
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    width: 1219px;
+    height: 80px;
+
+}
+#artist-effect{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+h3{
+    margin-top: 15.94px;
+    margin-bottom: 15.09px;
+}
+.artist-container{
+    padding: 129px 117.21px 152px 120px;
+}
+ /* be beautiful */
+.question{
+    font-size: 20px;
+    font-weight: 700;
+}
+.be-beautiful-container>h2{
+    height: 102px;
+    margin-top: 26px;
+}
+.be-beautiful-container>p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    width: 583.797px;
+    height: 50.586px;
+}
+.Share-button{
+    border-radius: 5px;
+    border: 2px solid var(--pink1, #FB797F);
+    background-color: var(--pink1, #FB797F);
+    padding: 13px 15px 13px 10px;
+    margin-top: 0px;
+
+    
+}
+.Share-button>span{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;   
+    font-style: normal;
+    width: 163.411px;
+    height: 20px;
+    margin: 0 5px 0 15px;
+}
+#be-beautiful-section{
+    display: flex;
+    background-color: rgba(255, 198, 199, 0.50);
+    padding: 78px 127px 71px 155px;
+    height: 503px;
+
+}
+#beautiful-banner>img{
+    position: relative;
+    top: -100px;
+    right: -60px;
+
+}
+#beautiful-banner>svg{
+    position: relative;
+    top: -550px;
+    right: 0px;
+
+}
+/* tip */
+.tip-title>h2{
+    width: 473.915px;
+    height: 77.245px;
+}
+.tip-title>span{
+    color: var(--pink1, #FB797F);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.tip-title{
+    display: flex;
+    justify-content: space-between;
+}
+.tip-container>p{
+    width: 1207px;
+    height: 80px;
+}
+.tip-card>p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    width: 379px;
+    height: 80px;
+}
+.see-more{
+    color: red;
+}
+.tip-card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:22px;
+}
+#tips-section{
+    padding: 103px 124px 82px 125px;
+}
+
+/* PHONE */
+
+@media screen and (min-width: 380px) and (max-width: 768px) {
+    main{
+        width: 100%;
+        align-items: centers;
+        text-align: center;
+    
+    }
+    h2{
+        font-size: 50px;
+        font-weight: 400;
+    }
+    
+    #main-banner>svg {
+        position: relative;
+        top: 100px;
+        left: -100px;
+    }
+    #main-banner>img {
+        width:100%;
+        margin-bottom: 12px;
+    }
+        
+    #welcome-section{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        
+    }
+    #welcome-container{
+        width: 100%;
+    }
+    #products-secton{
+        display: none;
+    }
+    #passion-banner>svg{
+        position: relative;
+        top: 30px;
+        right: 5px;
+    }
+    #passion-banner{
+        width: 100%;
+        
+    }
+    .passion-container{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    #artist-effect{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    main{
+        width: 100%;
+        align-items: center;
+        text-align: centers;
+    }
+
+}

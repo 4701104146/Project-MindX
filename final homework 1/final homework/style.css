@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Quicksand;
+
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+body,main,tutorials-container, #tutorials-section, #videos-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 100%;
+    display: flex;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(Assest-20230827T040303Z-001/Assest/Font/Quicksand2/static/Quicksand-Regular.ttf);
+}
+
+@font-face {
+    font-family: Sacramento;
+    src: url(Assest-20230827T040303Z-001/Assest/Font/Sacramento/Sacramento-Regular.ttf);
+}
+
+/* welcome */
+
+#welcome-view {
+    width: 199px;
+    height: 46px;
+    border-radius: 5px;
+    background-color: #FB797F;
+    padding: 10px 49.56px 13px 35px;
+
+}
+
+.welcome-home {
+    font-family: Quicksand;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    width: 554px;
+    height: 31px;
+    margin: 232px 34px 29px 0px;
+}
+
+#welcome-section {
+    width: 100%;
+    margin: 124px 0;
+    /* background-color: rgba(255, 198, 199, 0.30); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#group-banner {
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-banner {
+    position: relative;
+}
+
+#group-banner>img {
+    /* position: absolute; */
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    height: auto;
+}
+
+#group-banner>svg {
+    position: absolute;
+    top: 51px;
+    left: -51px;
+    width: 100%;
+    height: auto;
+}
+
+#welcome-container>h2 {
+    margin: 23px 106.73px 6.84px 0px;
+
+}
+
+h2 {
+    font-family: Sacramento;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 85px;
+    color: #FB797F;
+    width: 482.681px;
+    /* height: 178.812px; */
+}
+
+#play-button {
+    position: relative;
+    top: -22px;
+    left: 100px;
+}
+
+#welcome-view>p {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+#welcome-container>p {
+    font-family: Quicksand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 510px;
+    height: 60px;
+    margin: 0 79px 25px 0px;
+}
+
+/* trending */
+
+.tutorials-container{
+    width: 1280px;
+    
+}
+
+
+#tutorial-title>span {
+    color: var(--pink1, #FB797F);
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+
+
+}
+
+#tutorial-title>h2 {
+    /* width: 473.915px;
+    height: 77.245px; */
+
+}
+
+#tutorial-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.tutorials-container>p {
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 54px;
+    /* width: 1204px;
+    
+    height: 80px; */
+    /* margin: 0 119px 54px 0; */
+}
+
+#video-container>p {
+    font-family: Quicksand;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#tutorials-container>p {
+    width: 1204px;
+    height: 80px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 19.48px 119px 54px 117px;
+}
+
+#tutorials-container{
+    width: 100%;
+}
+
+#trending-video {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+#videos-container{
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.video-container:nth-child(2)>a>img{
+    width: 692px;
+    height:auto;
+}
+
+
+
+/* .video-container > p:first-child{
+    font-size: 25px;
+    font-weight: 700;
+    width: 611.514px;
+    height: 33.175px;
+} */
+
+@media screen and (min-width: 990px) and (max-width: 1280px) {
+    #container {
+        width: 80%;
+        gap: 0px;
+        height: 400px;
+    }
+    .tutorials-container{
+        width: 80%;   
+    }
+    #group-banner {
+        max-height: 400px;
+        aspect-ratio: 1;
+    }
+
+    #welcome-container>p {
+        max-width: 450px;
+        height: auto;
+    }
+
+    #welcome-container {
+        max-width: 450px;
+
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+    #container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 55px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .tutorials-container{
+        width: 90%;   
+    }
+    
+
+    #group-banner {
+        position: relative;
+        left: 25px
+    }
+
+    #welcome-container>p {
+
+        width: auto;
+        height: auto;
+    }
+
+    h2 {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 600px)  and (min-width:380px){
+
+    h2 {
+        font-size: 55px;
+        line-height: 65px;
+    }
+    .video-container:nth-child(2)>a>img{
+        width: 100vw;
+        height:auto;
+    }
+    .video-container:nth-child(1)>a>img, .video-container:nth-child(3)>a>img{
+        width: 40vw !important;
+        height:auto;
+    }
+    
+}
