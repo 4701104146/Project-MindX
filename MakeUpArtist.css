@@ -46,6 +46,7 @@ html {
     align-items: center;
     justify-content: center;
     min-width: 380px;
+    
 }
 /* ------------------------------------------------------------------------------------------------------------------ */
 @media screen and (min-width:1280px) {
