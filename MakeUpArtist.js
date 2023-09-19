@@ -185,360 +185,360 @@ const data = [
         image: 'Assest/Image/makeupartist/list-1(1).png',
         name: 'Kierra Workman',
         nation: 'Sao Tome and Principe',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Beginner',
-        dataFocusOn:'Full-face',
-        dataMakeUp:'Daily make-up'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Beginner',
+        dataFocusOn: 'Full-face',
+        dataMakeUp: 'Daily make-up'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-2.png',
         name: 'Gretchen Bergson',
         nation: 'Iceland',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Intermediate',
-        dataFocusOn:'Eyes',
-        dataMakeUp:'Sweet'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Intermediate',
+        dataFocusOn: 'Eyes',
+        dataMakeUp: 'Sweet'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-3.png',
         name: 'Hanna Calzoni',
         nation: 'Iran (Islamic Republic of)',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Advanced',
-        dataFocusOn:'Lips',
-        dataMakeUp:'Sharp'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Advanced',
+        dataFocusOn: 'Lips',
+        dataMakeUp: 'Sharp'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-4.png',
         name: 'Ann Culhane',
         nation: 'Algeria',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Mixed',
-        dataFocusOn:'Foundation',
-        dataMakeUp:'Daily make-up'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Mixed',
+        dataFocusOn: 'Foundation',
+        dataMakeUp: 'Daily make-up'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-5.png',
         name: 'Lydia Lubin',
         nation: 'Viet Nam',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Beginner',
-        dataFocusOn:'Eyesbrown',
-        dataMakeUp:'Sweet'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Beginner',
+        dataFocusOn: 'Eyesbrown',
+        dataMakeUp: 'Sweet'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-6.png',
         name: 'Erin George',
         nation: 'Israel',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Intermediate',
-        dataFocusOn:'Contour',
-        dataMakeUp:'Sharp'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Intermediate',
+        dataFocusOn: 'Contour',
+        dataMakeUp: 'Sharp'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-7.png',
         name: 'Jocelyn Lubin',
         nation: 'Brazil',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Advanced',
-        dataFocusOn:'Concealer',
-        dataMakeUp:'Daily make-up'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Advanced',
+        dataFocusOn: 'Concealer',
+        dataMakeUp: 'Daily make-up'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-8.png',
         name: 'Giana Levin',
         nation: 'Curaçao',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Mixed',
-        dataFocusOn:'Skin-care',
-        dataMakeUp:'Sweet'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Mixed',
+        dataFocusOn: 'Skin-care',
+        dataMakeUp: 'Sweet'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-9.png',
         name: 'Cheyenne Dorwart',
         nation: 'Sao Tome and Principe',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Beginner',
-        dataFocusOn:'Full-face',
-        dataMakeUp:'Sharp'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Beginner',
+        dataFocusOn: 'Full-face',
+        dataMakeUp: 'Sharp'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-10.png',
         name: 'Ashlynn Aminoff',
         nation: 'Saint Barthélemy',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Intermediate',
-        dataFocusOn:'Eyes',
-        dataMakeUp:'Daily make-up'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Intermediate',
+        dataFocusOn: 'Eyes',
+        dataMakeUp: 'Daily make-up'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-11.png',
         name: 'Maren Schleifer',
         nation: 'Israel',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Advanced',
-        dataFocusOn:'Lips',
-        dataMakeUp:'Sweet'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Advanced',
+        dataFocusOn: 'Lips',
+        dataMakeUp: 'Sweet'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-12.png',
         name: 'Carla Curtis',
         nation: 'Saudi Arabia',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Beginner',
-        dataFocusOn:'Full-face',
-        dataMakeUp:'Daily make-up'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Beginner',
+        dataFocusOn: 'Full-face',
+        dataMakeUp: 'Daily make-up'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-13.png',
         name: 'Erin Culhane',
         nation: 'Réunion',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Intermediate',
-        dataFocusOn:'Eyes',
-        dataMakeUp:'Daily make-up'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Intermediate',
+        dataFocusOn: 'Eyes',
+        dataMakeUp: 'Daily make-up'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-14.png',
         name: 'Maren Levin',
         nation: 'Åland Islands',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Intermediate',
-        dataFocusOn:'Eyes',
-        dataMakeUp:'Daily make-up'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Intermediate',
+        dataFocusOn: 'Eyes',
+        dataMakeUp: 'Daily make-up'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-15.png',
         name: 'Maria Schleifer',
         nation: 'Algeria',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Mixed',
-        dataFocusOn:'Skin-care',
-        dataMakeUp:'Sweet'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Mixed',
+        dataFocusOn: 'Skin-care',
+        dataMakeUp: 'Sweet'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-16.png',
         name: 'Ashlynn Botosh',
         nation: 'Monaco',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Mixed',
-        dataFocusOn:'Skin-care',
-        dataMakeUp:'Sweet'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Mixed',
+        dataFocusOn: 'Skin-care',
+        dataMakeUp: 'Sweet'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-17.png',
         name: 'Alexandru Zdrobau',
         nation: 'Chisinau, Moldova',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Intermediate',
-        dataFocusOn:'Eyes',
-        dataMakeUp:'Daily make-up'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Intermediate',
+        dataFocusOn: 'Eyes',
+        dataMakeUp: 'Daily make-up'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-19.png',
         name: 'Ayo Ogunseinde',
         nation: 'Houston, United States',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Intermediate',
-        dataFocusOn:'Eyes',
-        dataMakeUp:'Sweet'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Intermediate',
+        dataFocusOn: 'Eyes',
+        dataMakeUp: 'Sweet'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-20.png',
         name: 'Pouriya Kafaei',
         nation: 'Moscow, Russia',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Beginner',
-        dataFocusOn:'Full-face',
-        dataMakeUp:'Daily make-up'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Beginner',
+        dataFocusOn: 'Full-face',
+        dataMakeUp: 'Daily make-up'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-21.png',
         name: 'Lydia Lubin',
         nation: 'Viet Nam',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Intermediate',
-        dataFocusOn:'Eyes',
-        dataMakeUp:'Sweet'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Intermediate',
+        dataFocusOn: 'Eyes',
+        dataMakeUp: 'Sweet'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-22.png',
         name: 'Jayson Hinrichsen',
         nation: 'Des Moines, United States',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Intermediate',
-        dataFocusOn:'Eyes',
-        dataMakeUp:'Sweet'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Intermediate',
+        dataFocusOn: 'Eyes',
+        dataMakeUp: 'Sweet'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-23.png',
         name: 'Nora Hutton',
         nation: 'Hertfordshire, UK',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Beginner',
-        dataFocusOn:'Full-face',
-        dataMakeUp:'Daily make-up'
-        
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Beginner',
+        dataFocusOn: 'Full-face',
+        dataMakeUp: 'Daily make-up'
+
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-24.png',
         name: 'Pascal Bräuer',
         nation: 'Wien, Austria',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Advanced',
-        dataFocusOn:'Lips',
-        dataMakeUp:'Sharp'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Advanced',
+        dataFocusOn: 'Lips',
+        dataMakeUp: 'Sharp'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-25.png',
         name: 'Cheyenne Dorwart',
         nation: 'Sao Tome and Principe',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Beginner',
-        dataFocusOn:'Full-face',
-        dataMakeUp:'Daily make-up'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Beginner',
+        dataFocusOn: 'Full-face',
+        dataMakeUp: 'Daily make-up'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-26.png',
         name: 'Ashlynn Aminoff',
         nation: 'Saint Barthélemy',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Advanced',
-        dataFocusOn:'Lips',
-        dataMakeUp:'Sharp'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Beginner',
+        dataFocusOn: 'Lips',
+        dataMakeUp: 'Sharp'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-27.png',
         name: 'Roksolana Zasiadko',
         nation: 'Cieloadentro',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Beginner',
-        dataFocusOn:'Full-face',
-        dataMakeUp:'Daily make-up'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Beginner',
+        dataFocusOn: 'Full-face',
+        dataMakeUp: 'Daily make-up'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-28.png',
         name: 'Štefan Štefančík',
         nation: 'Cikstefan',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Beginner',
-        dataFocusOn:'Full-face',
-        dataMakeUp:'Daily make-up'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Beginner',
+        dataFocusOn: 'Full-face',
+        dataMakeUp: 'Daily make-up'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-29.png',
         name: 'Valerie Elash',
         nation: 'Réunion',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Advanced',
-        dataFocusOn:'Concealer',
-        dataMakeUp:'Daily make-up'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Advanced',
+        dataFocusOn: 'Concealer',
+        dataMakeUp: 'Daily make-up'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-30.png',
         name: 'Valerie Elash',
         nation: 'Réunion',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Beginner',
-        dataFocusOn:'Full-face',
-        dataMakeUp:'Daily make-up'
-      },
-      {
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Beginner',
+        dataFocusOn: 'Full-face',
+        dataMakeUp: 'Daily make-up'
+    },
+    {
         imgView: 'Assest/Image/makeupartist/group-224.png',
         imgHeart: 'Assest/Image/makeupartist/group-223.png',
         imgHeart1: 'Assest/Image/makeupartist/group-223(1).png',
         image: 'Assest/Image/makeupartist/list-31.png',
         name: 'Wesley Tingey',
         nation: 'Algeria',
-        link:'https://www.instagram.com/kiera/',
-        dataLevel:'Advanced',
-        dataFocusOn:'Concealer',
-        dataMakeUp:'Daily make-up'
-      },
+        link: 'https://www.instagram.com/kiera/',
+        dataLevel: 'Advanced',
+        dataFocusOn: 'Concealer',
+        dataMakeUp: 'Daily make-up'
+    },
 ];
 
 const createModelCard = (data) => {
@@ -720,9 +720,9 @@ function changePage(i) {
 window.addEventListener("scroll", () => {
     var pos = scrollY;
     if (pos > 0) {
-        if(document.getElementsByTagName("header")[0].className != "active")
-        return
-        else{
+        if (document.getElementsByTagName("header")[0].className != "active")
+            return
+        else {
             document.getElementsByTagName("header")[0].className = "active";
         }
     }
@@ -732,9 +732,49 @@ const changeNav = () => {
     var scroll_y = this.scrollY;
     if (scroll_y > 0) {
         header.classList.add("headerActive");
-    } 
-    else{
+    }
+    else {
         header.classList.remove("headerActive");
     }
 };
 window.addEventListener("scroll", changeNav);
+const name_item = document.querySelectorAll('.name');
+const search_item = document.getElementById('btnSearch');
+const elementProfile = document.querySelectorAll('.profile');
+const filterCheckBox = document.querySelectorAll('.checkBox');
+const applyBtn = document.getElementById('ApplyBtn');
+const nation_item = document.querySelectorAll('.nation')
+
+applyBtn.addEventListener('click', function () {
+    let count = 0;
+    if(count==0){
+        for (let z = 0; z < data.length; z++) {
+            profile[z].style.display = 'block';
+        }
+    }
+    for (let x = 0; x < filterCheckBox.length; x++) {
+        if (filterCheckBox[x].checked == true) {
+            for (let y = 0; y < data.length; y++) {
+                if (filterCheckBox[x].value != data[y].dataLevel &&
+                    filterCheckBox[x].value != data[y].dataFocusOn &&
+                    filterCheckBox[x].value != data[y].dataMakeUp) {
+                    count++;
+                    profile[y].style.display = 'none';
+                }
+                else{
+                    if(profile[y].style.display == 'block'){
+                        profile[y].style.display = 'block';
+                    }
+                    else{
+                        profile[y].style.display = 'none';
+                    }
+                }                
+            }
+        }
+    }
+    if(count==0){
+        for (let z = 0; z < data.length; z++) {
+            profile[z].style.display = 'block';
+        }
+    }
+})
