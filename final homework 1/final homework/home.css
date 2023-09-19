@@ -25,7 +25,110 @@ body{
     src: url(Assest-20230827T040303Z-001/Assest/Font/Sacramento/Sacramento-Regular.ttf);
 }
 /* welcome */
+.header {
+    position: relative;
+    display: flex;
+    width: 100% ;
+    height: 67px;
+    flex-shrink: 1;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+.headerActive {
+    background-color: rgb(248, 217, 220);
+    box-shadow: 5px 5px 5px 5px rgb(158, 157, 157);
+    position: fixed;
+    top: 0;
+    padding-bottom: 10px;
+    z-index: 100;
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+    transition: 1s;
+}
+
+.logo {
+    font-family: Meddon;
+    font-family: Meddon;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FB797F;
+    margin-left: 50%;
+    cursor: pointer;
+}
+
+.header .category {
+    margin-top: 30px;
+    margin-left: 10%;
+    width: 60%;
+}
+.navbar{
+    display: none;
+}
+.header .category a {
+    width: 700px;
+    color: black;
+    font-family: Quicksand;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-inline: 10px;
+    margin-left: 1%;
+}
+
+.header .category a:nth-child(4) {
+    color: #FB797F;
+}
+
+.header .button-header {
+    margin: 20px 0px 0px 0px;
+    display: flex;
+
+}
+
+.header .button-header .button-signup {
+    border-radius: 5px;
+    border: 2px solid var(--pink-1, #FB797F);
+    background: var(--pink-1, #FB797F);
+    width: 138px;
+    height: 46px;
+    color: white;
+    cursor: pointer;
+}
+
+.header .button-header .button-signup:hover {
+    border: 2px solid var(--pink-1, #FB797F);
+    background: var(--pink-1, white);
+    color: #FB797F;
+    cursor: pointer;
+}
+
+.header .button-header .button-signin {
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 2px solid var(--pink-1, #FB797F);
+    width: 138px;
+    height: 46px;
+    color: rgba(251, 121, 127, 1);
+    background-color: white;
+    margin-right: 70px;
+    cursor: pointer;
+}
+
+.header .button-header .button-signin:hover {
+    border: 2px solid var(--pink-1, white);
+    background: var(--pink-1, #FB797F);
+    color: white;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
 .welcome-home{
     font-family: Quicksand;
     font-size: 25px;

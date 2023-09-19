@@ -8,15 +8,65 @@
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <!-- <link rel="stylesheet" href="home.css"> -->
     <link rel="stylesheet" href="style.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <title>Bootstrap Example</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Home.js" defer></script>
 </head>
 
 <body>
+    <header id="header">
+        <!-- header -->
+        <div class="header">
+            <a href="#">
+                <p class="logo">Aura</p>
+            </a>
+            <div class="category">
+                <a href="#">Home</a>
+                <a href="">About Us</a>
+                <a href="">Make-up Tutorials</a>
+                <a href="">Make-up Artist</a>
+                <a href="">Tips & Trend</a>
+            </div>
+            <div class="button-header">
+                <button class="button-signup">Sign Up</button>
+                <button class="button-signin">Sign In</button>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg"  id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Aura</a>
+              <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><img src="../../Assest/Image/makeupartist/solar_hamburger-menu-broken.png"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Make-up Tutorials</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="MakeUpArtist.html">Make-up Artist</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Tips & Trend</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sign Up</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sign In</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
     <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header">
@@ -284,6 +334,99 @@
         </div>
     </section> -->
     </main>
+    <footer>
+        <div class="footer">
+            <a href="">
+                <p class="fontfooter">Aura</p>
+            </a>
+        </div>
+        <div class="content-footer">
+            <div id="Headquaters" class="parent-content">
+                <h4 class="footerTitle">Headquaters</h4>
+                <div class="content">
+                    <div class="child-content1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ipsum</p>
+                        <p>+(XXX) XXX XXXX XXX</p>
+                        <p>Lorem ipsum@gmail.com</p>
+                    </div>
+
+                </div>
+            </div>
+            <div id="QuickLinks" class="parent-content">
+                <h4 class="footerTitle">Quick Links</h4>
+                <div class="content">
+                    <div class="child-content">
+                        <div class="inner-child-content">
+                            <div class="inner-child-content1">
+                                <a href="final homework 1/final homework/finalau.html">
+                                    <p>About US</p>
+                                </a>
+                                <a href="signin.html">
+                                    <p>Login</p>
+                                </a>
+                                <a href="signup.html">
+                                    <p>Signup</p>
+                                </a>   
+                            </div>
+                            <div class="inner-child-content2">
+                                <a href="make-up-tutorial.html">
+                                    <p>Make-up tutorial</p>
+                                </a>
+                                <a href="MakeUpArtist.html">
+                                    <p>Make-up artist</p>
+                                </a>
+                                <a href="#">
+                                    <p>Beauty blog</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Resources"class="parent-content">
+                <h4 class="footerTitle">Resources</h4>
+                <div class="content">
+                    <div class="child-content2">
+                        <p>How-it-work</p>
+                        <p>Policy</p>
+                        <p>Term of services</p>
+                    </div>
+
+                </div>
+            </div>
+            <div id="Contact" class="parent-content">
+                <h4 class="footerTitle">Contact</h4>
+                <div class="content">
+                    <a href="https://www.facebook.com/">
+                        <iconify-icon icon="lucide:facebook"></iconify-icon>
+                    </a>
+                    <a href="https://twitter.com/home">
+                        <iconify-icon icon="iconoir:twitter"></iconify-icon>
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <iconify-icon icon="gg:instagram"></iconify-icon>
+                    </a>
+                </div>
+            </div>
+
+            <div id="Apps" class="parent-content">
+                <h4 class="footerTitle">Apps</h4>
+                <div class="content">
+                    <a href="https://play.google.com/store/games?hl=vi&gl=US&pli=1" target="_blank">
+                        <img id="ggPlay" src="../../Assest/Image/png-clipart-app-store-google-play-apple-apple-text-logo.jpg">
+                    </a>
+                    <a href="https://www.apple.com/vn/app-store/" target="_blank">
+                        <img id="appStore" src="../../Assest/Image/png-transparent-app-store-apple-google-play-apple-text-logo-mobile-phones.jpg" >
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr class="hr-footer">
+        <div class="last-footer">
+            <p>Copyright ©2023 All rights reserved | This template is made by <b>Thanh Vi</b></p>
+        </div>
+    </footer>
 </body>
 
 </html>

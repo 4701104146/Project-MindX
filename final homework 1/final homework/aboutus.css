@@ -3,7 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Quicksand;
+    text-decoration: none !important;
     
+}
+@font-face {
+    font-family: Meddon;
+    src: url(../../Assest/Font/Meddon-Regular.ttf);
 }
 
 html{
@@ -24,6 +29,111 @@ body{
     font-family: Sacramento;
     src: url(Assest-20230827T040303Z-001/Assest/Font/Sacramento/Sacramento-Regular.ttf);
 }
+.header {
+    position: relative;
+    display: flex;
+    width: 100% ;
+    height: 67px;
+    flex-shrink: 1;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerActive {
+    background-color: rgb(248, 217, 220);
+    box-shadow: 5px 5px 5px 5px rgb(158, 157, 157);
+    position: fixed;
+    top: 0;
+    padding-bottom: 10px;
+    z-index: 100;
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+    transition: 1s;
+}
+
+.logo {
+    font-family: Meddon;
+    font-family: Meddon;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FB797F;
+    margin-left: 50%;
+    cursor: pointer;
+}
+
+.header .category {
+    margin-top: 30px;
+    margin-left: 10%;
+    width: 80%;
+}
+#navbar{
+    display: none;
+}
+.header a{
+    text-decoration: none;
+}
+.header .category a {
+    width: 700px;
+    color: black;
+    font-family: Quicksand;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-inline: 10px;
+    margin-left: 1%;
+    text-decoration: none;
+}
+
+.header .category a:nth-child(4) {
+    color: #FB797F;
+}
+
+.header .button-header {
+    margin: 20px 0px 0px 0px;
+    display: flex;
+
+}
+
+.header .button-header .button-signup {
+    border-radius: 5px;
+    border: 2px solid var(--pink-1, #FB797F);
+    background: var(--pink-1, #FB797F);
+    width: 138px;
+    height: 46px;
+    color: white;
+    cursor: pointer;
+}
+
+.header .button-header .button-signup:hover {
+    border: 2px solid var(--pink-1, #FB797F);
+    background: var(--pink-1, white);
+    color: #FB797F;
+    cursor: pointer;
+}
+
+.header .button-header .button-signin {
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 2px solid var(--pink-1, #FB797F);
+    width: 138px;
+    height: 46px;
+    color: rgba(251, 121, 127, 1);
+    background-color: white;
+    margin-right: 70px;
+    cursor: pointer;
+}
+
+.header .button-header .button-signin:hover {
+    border: 2px solid var(--pink-1, white);
+    background: var(--pink-1, #FB797F);
+    color: white;
+    cursor: pointer;
+}
+
 h2{
     color: var(--pink1, #FB797F);
     font-family: Sacramento;
@@ -252,6 +362,7 @@ h3{
     position: relative;
     bottom: 40px;
     left: 1000px;
+    width: fit-content;
 }
 
 /* contact */
@@ -298,6 +409,783 @@ input[type="submit"] {
     height: 46px;
     font-size: 20px;
     font-weight: 600;
-       
+}
 
+    footer {
+        width: 100%;
+        height: 450px;
+        background-color: #fa8b90;
+    }
+    footer .fontfooter {
+        font-family: Meddon;
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 74px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 0px 0px 0px 8%;
+        color: white;
+        padding: 25px 0px;
+    }
+    footer .hr-footer {
+        width: 85%;
+        margin-left: 8%;
+        border: #000 0.5px solid;
+    }
+    
+    .content-footer {
+        width: 85%;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        margin-left: 8%;
+        font-family: Quicksand;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }
+    
+    footer .content-footer p {
+        font-family: Quicksand;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+    
+    }
+    footer .content-footer .parent-content{
+        margin-right: 50px;
+    }
+    footer .content-footer .content {
+        margin: 50px 0px 50px 0px;
+    }
+    
+    #Headquaters{
+        width: 250px;
+    }
+    #QuickLinks{
+        width: 210px;
+    }
+    #Resources{
+        width: 130px;
+    }
+    .child-content1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 110px;
+        width: 245px;
+    }
+    
+    .inner-child-content {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 210px;
+    }
+    .inner-child-content1 {
+        height: 110px;
+        width: 80px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .inner-child-content2 {
+        height: 110px;
+        width: 130px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .child-content2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 110px;
+        width: 130px;
+    }
+    #Contact{   
+        width: 100%;
+        margin-right: 0%;
+    }
+    #Apps {
+        width: 160px;
+        margin-right: 0%;
+        padding-left: 10%;
+    }
+    
+    #Apps .content img {
+        width: 160px;
+        height: 50px;
+        
+    }
+    footer .last-footer {
+        margin-top: 40px;
+        text-align: center;
+        font-family: Quicksand;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+    
+    }
+    
+    footer .last-footer b {
+        font-family: Quicksand;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0em;
+        border-bottom: black 1px solid;
+    }
+@media screen and (min-width: 990px) and (max-width: 1280px) {
+    #container {
+        width: 80%;
+        gap: 0px;
+        height: 400px;
+    }
+    .tutorials-container{
+        width: 80%;   
+    }
+    #group-banner {
+        max-height: 400px;
+        aspect-ratio: 1;
+    }
+
+    #welcome-container>p {
+        max-width: 450px;
+        height: auto;
+    }
+
+    #welcome-container {
+        max-width: 450px;
+
+    }
+    footer {
+        width: 100%;
+        height: 450px;
+        background-color: #fa8b90;
+    }
+    footer .fontfooter {
+        font-family: Meddon;
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 74px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 0px 0px 0px 8%;
+        color: white;
+        padding: 25px 0px;
+    }
+    footer .hr-footer {
+        width: 85%;
+        margin-left: 8%;
+        border: #000 0.5px solid;
+    }
+
+    footer .content-footer {
+        width: 85%;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        margin-left: 8%;
+        font-family: Quicksand;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }
+
+    footer .content-footer p {
+        font-family: Quicksand;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+    footer .content-footer .parent-content{
+        margin-right: 20px;
+    }
+    footer .content-footer .content {
+        margin: 50px 0px 50px 0px;
+    }
+    footer .content-footer .parent-content .footerTitle {
+        width: auto;
+    }
+    #Headquaters{
+        width: 170px;
+    }
+    #QuickLinks{
+        width: 210px;
+    }
+    #Resources{
+        width: 130px;
+    }
+    footer .content-footer .content .child-content1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 110px;
+        width: 170px;
+    }
+    
+    footer .content-footer .content .child-content .inner-child-content {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 210px;
+    }
+    footer .content-footer .content .child-content .inner-child-content .inner-child-content1 {
+        height: 110px;
+        width: 80px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    footer .content-footer .content .child-content .inner-child-content .inner-child-content2 {
+        height: 110px;
+        width: 130px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    footer .content-footer .content .child-content2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 110px;
+        width: 130px;
+    }
+    #Contact{   
+        width: 80px;
+        margin-right: 0%;
+    }
+    #Apps {
+        width: 160px;
+        margin-right: 0%;
+    }
+
+    #Apps .content img {
+        width: 160px;
+        height: 50px;
+        
+    }
+    footer .last-footer {
+        margin-top: 40px;
+        text-align: center;
+        font-family: Quicksand;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+
+    }
+    
+    footer .last-footer b {
+        font-family: Quicksand;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0em;
+        border-bottom: black 1px solid;
+    }
+}
+
+@media screen and (max-width: 990px) and (min-width:768px){
+    .header{
+        display: none;
+    }
+    #navbar{
+        display: block;
+    }
+    #header{
+        width: 100vw;
+        margin: 0px auto;
+    }
+    .container-fluid .navbar-brand{
+        font-family: Meddon;
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 74px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FB797F;
+        cursor: pointer;
+    }
+    .container-fluid .navbar-brand:hover{
+        color: #FB797F;
+        
+    }
+    .nav-item{
+        border-radius:5px;
+        padding-left:20px;
+    }
+    .nav-item:hover{
+        width: 100%;
+        margin-left: 0px;
+        background-color: #FB797F;
+        transition: 0.5s;
+    }
+    footer {
+        width: 100%;
+        height: 500px;
+        background-color: #fa8b90;
+    }
+    footer .fontfooter {
+        font-family: Meddon;
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 74px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 0px 0px 0px 5%;
+        color: white;
+        padding: 25px 0px;
+    }
+    footer .hr-footer {
+        width: 85%;
+        margin-left: 5%;
+        border: #000 0.5px solid;
+    }
+
+    footer .content-footer {
+        width: 85%;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        margin-left: 5%;
+        font-family: Quicksand;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }
+
+    footer .content-footer p {
+        font-family: Quicksand;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+    footer .content-footer .parent-content{
+        margin-right: 10px;
+    }
+    footer .content-footer .content {
+        margin: 50px 0px 100px 0px;
+    }
+    footer .content-footer .parent-content .footerTitle {
+        width: auto;
+    }
+    #Headquaters{
+        width: 140px;
+    }
+    #QuickLinks{
+        width: 120px;
+    }
+    #Resources{
+        width: 110px;
+    }
+    footer .content-footer .content .child-content1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 110px;
+        width: 120px;
+    }
+    
+    footer .content-footer .content .child-content .inner-child-content {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 130px;
+    }
+    footer .content-footer .content .child-content .inner-child-content .inner-child-content1 {
+        height: 110px;
+        width: 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    footer .content-footer .content .child-content .inner-child-content .inner-child-content2 {
+        height: 110px;
+        width: 70px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    footer .content-footer .content .child-content2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 110px;
+        width: 100px;
+    }
+    #Contact{   
+        width: 80px;
+        margin-right: 0%;
+    }
+    #Apps {
+        width: 160px;
+        margin-right: 0%;
+    }
+
+    #Apps .content img {
+        width: 160px;
+        height: 50px;
+        
+    }
+    footer .last-footer {
+        margin-top: 40px;
+        text-align: center;
+        font-family: Quicksand;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+
+    }
+    
+    footer .last-footer b {
+        font-family: Quicksand;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0em;
+        border-bottom: black 1px solid;
+    }
+    h2 {
+        font-size: 55px;
+        line-height: 65px;
+    }
+    .video-container:nth-child(2)>a>img{
+        width: 100vw;
+        height:auto;
+    }
+    .video-container:nth-child(1)>a>img, .video-container:nth-child(3)>a>img{
+        width: 40vw !important;
+        height:auto;
+    }
+}
+
+@media screen and (max-width: 768px)  and (min-width:380px){
+    .header{
+        display: none;
+    }
+    #navbar{
+        display: block;
+    }
+    #header{
+        width: 100vw;
+        margin: 0% auto;
+    }
+    .container-fluid .navbar-brand{
+        font-family: Meddon;
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 74px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FB797F;
+        cursor: pointer;
+    }
+    .container-fluid .navbar-brand:hover{
+        color: #FB797F;
+        
+    }
+    .nav-item{
+        border-radius:5px;
+        padding-left:20px;
+    }
+    .nav-item:hover{
+        width: 100%;
+        margin-left: 0px;
+        background-color: #FB797F;
+        transition: 0.5s;
+    }
+    .header {
+        position: relative;
+        width: 100% ;
+        height: 87px;
+        flex-shrink: 1;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .headerActive {
+        background-color: rgb(248, 217, 220);
+        box-shadow: 5px 5px 5px 5px rgb(158, 157, 157);
+        position: fixed;
+        top: 0;
+        padding-bottom: 0px;
+        z-index: 100;
+        width: 100%;
+        border-radius: 0px 0px 20px 20px;
+        transition: 0.3s;
+    }
+
+    .logo {
+        font-family: Meddon;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 74px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FB797F;
+        margin-left: 10%;
+        cursor: pointer;
+    }
+
+    .header .category {
+        margin-top: 30px;
+        margin-left: 7%;
+        width: 60%;
+        display: block;
+    }
+
+    .header .category a {
+        width: 700px;
+        color: black;
+        font-family: Quicksand;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-inline: 10px;
+        margin-left: 1%;
+    }
+
+    .header .category a:nth-child(4) {
+        color: #FB797F;
+    }
+
+    .header .button-header {
+        margin: 20px 0px 0px 0px;
+        display: block;
+
+    }
+
+    .header .button-header .button-signup {
+        border-radius: 5px;
+        border: 2px solid var(--pink-1, #FB797F);
+        background: var(--pink-1, #FB797F);
+        width: 138px;
+        height: 46px;
+        color: white;
+        cursor: pointer;
+        margin-left: 5%;
+    }
+
+    .header .button-header .button-signup:hover {
+        border: 2px solid var(--pink-1, #FB797F);
+        background: var(--pink-1, white);
+        color: #FB797F;
+        cursor: pointer;
+    }
+
+    .header .button-header .button-signin {
+        margin-left: 10px;
+        border-radius: 5px;
+        border: 2px solid var(--pink-1, #FB797F);
+        width: 138px;
+        height: 46px;
+        color: rgba(251, 121, 127, 1);
+        background-color: white;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .header .button-header .button-signin:hover {
+        border: 2px solid var(--pink-1, white);
+        background: var(--pink-1, #FB797F);
+        color: white;
+        cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
+        
+    }
+    .container-fluid .navbar-brand{
+        font-family: Meddon;
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 74px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FB797F;
+        cursor: pointer;
+    }
+    .container-fluid .navbar-brand:hover{
+        color: #FB797F;
+        
+    }
+    .nav-item{
+        border-radius:5px;
+        padding-left:20px;
+    }
+    .nav-item:hover{
+        width: 100%;
+        margin-left: 0px;
+        background-color: #FB797F;
+        transition: 0.5s;
+    }
+    footer {
+        width: 100%;
+        height: fit-content;
+        background-color: #fa8b90;
+    }
+    .fontfooter {
+        font-family: Meddon;
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 74px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+        margin: 25px auto 0px auto;
+    }
+    .hr-footer {
+        width: 90%;
+        margin-left: 5%;
+        border: #000 0.5px solid;
+    }
+
+    .content-footer {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        
+        margin: auto auto;
+        font-family: Quicksand;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: center;
+        
+    }
+
+    .content-footer p {
+        font-family: Quicksand;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        
+    }
+    .parent-content{
+        margin: auto auto;
+        text-align: center;
+    }
+    .content {
+        margin: auto auto auto auto;
+        text-align: center;
+    }
+    .footerTitle {
+        text-align: center;
+    }
+    #Headquaters{
+        width: 100%;
+        text-align: center;
+    }
+    #QuickLinks{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    #Resources{
+        width: 100%;
+        justify-content: center;
+        margin-top:0px;
+    }
+    .child-content1 {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .child-content1 p {
+        margin: 10px auto;
+    }
+    .inner-child-content {
+        width: 100%;
+    }
+    .inner-child-content1 {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .inner-child-content1 p{
+        display: inline-flex;
+        margin-right: 20px;
+    }
+    .inner-child-content2 {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .inner-child-content2 p{
+        display: inline-flex;
+        margin-right: 10px;
+    }
+    footer .content-footer p{
+        text-align: center;
+    }
+    .child-content2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .child-content2 p{
+        margin-right: 10px;
+    }
+    #Contact{   
+        width: 50%;
+        margin:20px auto auto auto !important;
+    }
+    #Contact .content{   
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+       
+    }
+    #Apps {
+        width: 100%;
+        margin:20px auto auto -30px !important;
+    }
+
+    #Apps .content img {
+        display: grid;
+        margin: 20px auto;
+        width: 160px;
+        height: 50px;
+    }
+    footer .last-footer {
+        margin: 20px auto 0px auto;
+        text-align: center;
+        font-family: Quicksand;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        width: 85%;
+
+    }
+    
+    footer .last-footer b {
+        font-family: Quicksand;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0em;
+        border-bottom: black 1px solid;
+    }
 }
